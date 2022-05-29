@@ -1,0 +1,40 @@
+body {
+  margin-top: 40px;
+}
+
+table {
+  margin:auto;
+  table-layout: fixed;
+  width: 350px;
+  border-color: #000;
+  border-width: 5px;
+}
+
+td {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#result {
+  font-size: 30px;
+  height: 50px;
+}
+
+button {
+  width: 81px;
+  height: 60px;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.clear-button{
+  width: 169px;
+}
+.total-button{
+  width: 169px;
+}
